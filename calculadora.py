@@ -20,6 +20,12 @@ def power(x, y):
     """Raise x to the power of y"""
     return x ** y
 
+def sqrt(x):
+    """Calculate the square root of x"""
+    if x < 0:
+        return "Error: Cannot compute square root of negative number"
+    return x ** 0.5
+
 def calculator():
     """Simple calculator program"""
     print("=" * 40)
@@ -30,8 +36,9 @@ def calculator():
     print("2. Subtract (-)")
     print("3. Multiply (*)")
     print("4. Divide (/)")
-    print("4. Power (^)")
-    print("5. Exit")
+    print("5. Power (^)")
+    print("6. Square Root (√)")
+    print("7. Exit")
     print("-" * 40)
     
     while True:
