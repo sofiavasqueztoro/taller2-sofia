@@ -30,6 +30,7 @@ def calculator():
     print("2. Subtract (-)")
     print("3. Multiply (*)")
     print("4. Divide (/)")
+    print("4. Power (^)")
     print("5. Exit")
     print("-" * 40)
     
