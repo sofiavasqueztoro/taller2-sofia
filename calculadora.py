@@ -26,6 +26,10 @@ def sqrt(x):
         return "Error: Cannot compute square root of negative number"
     return x ** 0.5
 
+def modulus(x, y):
+    """Calculate the modulus of two numbers"""
+    return x % y
+
 def calculator():
     """Simple calculator program"""
     print("=" * 40)
@@ -38,7 +42,8 @@ def calculator():
     print("4. Divide (/)")
     print("5. Power (^)")
     print("6. Square Root (√)")
-    print("7. Exit")
+    print("7. Modulus (%)")
+    print("8. Exit")
     print("-" * 40)
     
     while True:
