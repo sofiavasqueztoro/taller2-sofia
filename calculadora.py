@@ -16,6 +16,10 @@ def divide(x, y):
         return "Error: Division by zero"
     return x / y
 
+def power(x, y):
+    """Raise x to the power of y"""
+    return x ** y
+
 
 def calculator():
     """Simple calculator program"""
@@ -27,6 +31,7 @@ def calculator():
     print("2. Subtract (-)")
     print("3. Multiply (*)")
     print("4. Divide (/)")
+    print("5. Power (^)")
     print("7. Exit")
     print("-" * 40)
     
