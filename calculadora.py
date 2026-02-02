@@ -30,6 +30,11 @@ def modulus(x, y):
     """Calculate the modulus of two numbers"""
     return x % y
 
+def absolute(x):
+    """Calculate the absolute value of a number"""
+    return abs(x)
+
+
 def calculator():
     """Simple calculator program"""
     print("=" * 40)
@@ -43,7 +48,8 @@ def calculator():
     print("5. Power (^)")
     print("6. Square Root (√)")
     print("7. Modulus (%)")
-    print("8. Exit")
+    print("8. Absolute Value")
+    print("9. Exit")
     print("-" * 40)
     
     while True:
